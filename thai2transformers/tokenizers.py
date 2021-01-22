@@ -22,7 +22,7 @@ try:
     from helper import get_file_size, multi_imap
 except ModuleNotFoundError:
     import sys
-    sys.apth.append('..')
+    sys.path.append('..')
     from helper import get_file_size, multi_imap
 
 logger = logging.getLogger()
